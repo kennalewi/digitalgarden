@@ -1,6 +1,6 @@
 ---
 title: My First Post
-draft: true
+draft: false
 tags: 
 created date: 2024-05-06
 ---
