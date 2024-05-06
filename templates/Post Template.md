@@ -1,8 +1,6 @@
 ---
-title: "<% tp.file.title %>"
-draft: false
-tags:
-  - 
-date:
+title: <% tp.config.target_file.basename %>
+draft: true
+tags: 
+created date: <% tp.date.now() %>
 ---
-The rest of your content lives here. You can use **Markdown** here :)
