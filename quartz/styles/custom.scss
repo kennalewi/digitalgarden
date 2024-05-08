@@ -14,7 +14,7 @@ body {
 }
 
 #texture {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   background-image: url("quartz/static/texture2.png");
@@ -27,24 +27,10 @@ body {
   mix-blend-mode: overlay;
 }
 
-body[data-slug="thoughts/craft"] {
-  & li:has(> img, > video) {
-    list-style-type: none;
+[saved-theme="dark"] body[data-slug="index"] img[src*="banner.svg"] {
+    filter: invert(100%);
+}  
 
-    &>img, &>video {
-      margin: 1rem 0;
-    }
-  }
-
-  article>ul {
-    padding-left: 0;
-
-    &>li {
-      list-style-type: none;
-      margin: 1rem 0;
-    }
-  }
-}
 
 .left {
   display: grid !important;
@@ -101,21 +87,4 @@ hr {
     padding: 0.5em 1em;
     background: var(--light);
   }
-}
-
-pre.poetry {
-  font-size: 1.2rem;
-  font-family: biro_script_standardRgus;
-  border: none;
-  padding: 0;
-  position: unset;
-}
-
-.meta,
-.content-meta {
-  font-family: biro_script_standardRgus, var(--bodyFont);
-}
-
-audio::-webkit-media-controls-panel {
-  background-color: var(--lightgray);
 }
