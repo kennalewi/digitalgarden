@@ -18,13 +18,13 @@ body {
   width: 100%;
   height: 100%;
   background-image: url("quartz/static/texture2.png");
-  mix-blend-mode: normal;
+  mix-blend-mode: hard-light;
   pointer-events: none;
   z-index: -1;
 }
 
 [saved-theme="dark"] #texture {
-  mix-blend-mode: normal;
+  mix-blend-mode: overlay;
 }
 
 body[data-slug="thoughts/craft"] {
