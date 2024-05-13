@@ -2,7 +2,7 @@
 title: Digital Garden
 draft: false
 tags: 
-created date: 2024-05-08
+date: 2024-05-08
 ---
 I've started this practice of [[Learning in Public]] as a way to develop and share my writing with the world. I'm increasingly interested in owning my own data, and being an active creator rather than just a consumer. 
 
