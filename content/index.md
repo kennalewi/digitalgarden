@@ -5,6 +5,6 @@ Hello, my name is Kenna and I'm a student at the University of Cincinnati studyi
 
 This is my digital garden, where I engage in learning in public.
 
-I am currently exploring...
+I am currently exploring [[Post Internet Art]], as well as some other topics.
 
 
