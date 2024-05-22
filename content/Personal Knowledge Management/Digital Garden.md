@@ -4,7 +4,7 @@ draft: false
 tags: 
 date: 2024-05-08
 ---
-I've started this practice of [[Learning in Public]] as a way to develop and share my writing with the world. I'm increasingly interested in owning my own data, and being an active creator rather than just a consumer. 
+I've started this practice of [[Learning in Public]] as a way to develop and share my writing with the world. I'm increasingly interested in owning my own data, and being an active creator rather than just a consumer. I'm working on creating a personal [[Digital Garden Manifesto]] to guide my practice.
 
 # What is a "Digital Garden"? 🤨🏡
 If you've never heard of a digital garden it's essentially an imperfect, growing body of writing that is exploratory and interconnected. this definition from Maggie Appleton's Article, ["A Brief History & Ethos of the Digital Garden"](https://maggieappleton.com/garden-history) is very helpful. 
