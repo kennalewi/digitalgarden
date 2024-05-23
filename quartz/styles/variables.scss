@@ -1,9 +1,9 @@
-$pageWidth: 750px;
-$mobileBreakpoint: 600px;
-$tabletBreakpoint: 1000px;
-$sidePanelWidth: 380px;
-$topSpacing: 6rem;
-$fullPageWidth: $pageWidth + 2 * $sidePanelWidth;
+$pageWidth: 700px; // maximum width of the main content area .pagecontainer
+$mobileBreakpoint: 600px; // breakpoint determines when the layout should switch to a mobile-friendly format. For viewports narrower than 600px
+$tabletBreakpoint: 1000px; // breakpoint is typically used to adjust the layout for tablet-sized viewports. It’s wider than the mobile breakpoint but narrower than typical desktop widths
+$sidePanelWidth: 380px; // This defines the width of sidebars. It is used in calculations to ensure that sidebars are properly positioned and sized relative to the main content area.
+$topSpacing: 6rem; // This variable is used to set consistent top margins or padding across various elements, ensuring uniform vertical spacing.
+$fullPageWidth: $pageWidth + 2 * $sidePanelWidth; // 1000px + 2* 380 = 1760 when viewport width is less than $fullPageWidth it stacks
 $boldWeight: 700;
 $semiBoldWeight: 600;
 $normalWeight: 400;
