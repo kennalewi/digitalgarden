@@ -4,7 +4,7 @@ draft: false
 tags: 
 created date: 2024-05-15
 ---
-# What Is Post Internet Art?
+ # What Is Post Internet Art?
 
 To the uninitiated, Post Internet art might seem like art "after the internet", which isn't inherently true. Like post-modernists, adapted and expanded on modernism, Post Internet Artists are using the internet to comment on complex issues and ideas.
 

@@ -5,4 +5,4 @@ Hello, my name is Kenna and I'm a student at the University of Cincinnati studyi
 
 This is my [[Digital Garden]], where I engage in [[Learning in Public]].
 
-I am currently exploring [[Post Internet Art]], as well as some other topics. I'm learning a lot about [[3D Printing]], and have been experimenting with [[Making 3D models]]. 
+I am currently exploring [[Post Internet Art]], as well as some other topics. I'm learning a lot about [[3D Printing in Fine Arts]], and have been experimenting with [[Making 3D models]]. 
