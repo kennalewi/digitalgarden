@@ -31,4 +31,4 @@ When looking at [[Anthony Discenza]]'s work, Mrin told me that when I'm creating
 
 my art might not take the form of a specific medium, or physical sculpture even. Consider how you can create installations or **spaces for institutional critique**. 
 
-I'm considering what it means to create [[Speculative Objects]]. I haven't researched what they are fully, but 
+I'm considering what it means to create [[Speculative Objects]]. I haven't researched what they are fully, and what they can be in my practice. I've heard of art taking the form of an [[Art Objects|Art Object]], Will have to research that more as well (because I'm not so sure what the difference is haha).

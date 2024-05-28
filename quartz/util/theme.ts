@@ -1,12 +1,12 @@
 export interface ColorScheme {
-  light: string
-  lightgray: string
-  gray: string
-  darkgray: string
-  dark: string
-  secondary: string
-  tertiary: string
-  highlight: string
+  light: string      // Used in: body, section background color
+  lightgray: string  // Used in: blockquote border, footnotes border, table cell border, horizontal rule background, checkbox border, preformatted text border, code background
+  gray: string       // Used in: table header border, completed checkbox text, recent-notes strike-through text color
+  darkgray: string   // Used in: text color for body, sections, and general text elements (p, ul, etc.), figure titles, hr color, KaTeX display color
+  dark: string       // Used in: header text color, page-header, blockquote border in dark theme, anchor hover color, strong text color in paragraphs, recent-notes strike-through text color, checkbox checkmark
+  secondary: string  // Used in: anchor color, checkbox border and background when checked, blockquote border, code block highlighted line border, a:hover color, .darkmode grid area
+  tertiary: string   // Used in: anchor hover color, ::selection background blend
+  highlight: string  // Used in: internal link background color, code block highlighted text background, .toc grid area
 }
 
 interface Colors {

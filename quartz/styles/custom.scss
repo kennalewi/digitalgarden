@@ -1,90 +1,96 @@
+// Import base styles and custom variables
 @use "./base.scss";
 
-// put your custom CSS here!
+// Import custom variables
 @use "./variables.scss" as *;
 
+// Custom styling for body with data attribute "data-slug" set to "index"
 body[data-slug="index"] img {
-  filter: invert(0%);
-  opacity: 0.85;
+  filter: invert(0%); // Do not invert colors
+  opacity: 0.85; // Set image opacity to 85%
 }
 
+// Global body styling
 body {
-  position: relative;
-  min-height: 100vh;
+  position: relative; // Position relative to contain absolutely positioned children
+  min-height: 100vh; // Set minimum height to 100% of the viewport height
 }
 
+// Styling for a fixed background texture
 #texture {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-image: url("quartz/static/texture2.png");
-  mix-blend-mode: hard-light;
-  pointer-events: none;
-  z-index: -1;
+  position: fixed; // Fix position relative to the viewport
+  width: 100%; // Set width to 100%
+  height: 100%; // Set height to 100%
+  background-image: url("quartz/static/texture2.png"); // Set background image
+  mix-blend-mode: hard-light; // Use hard-light blend mode
+  pointer-events: none; // Ignore pointer events
+  z-index: -1; // Place behind other elements
 }
 
+// Change blend mode for dark theme
 [saved-theme="dark"] #texture {
-  mix-blend-mode: overlay;
+  mix-blend-mode: overlay; // Use overlay blend mode for dark theme
 }
 
+// Invert colors for banner images in dark theme
 [saved-theme="dark"] body[data-slug="index"] img[src*="banner.svg"] {
-    filter: invert(100%);
-}  
+  filter: invert(100%); // Invert colors for banner images
+}
 
-
+// Styling for elements with class "left"
 .left {
-  display: grid !important;
-  gap: 1.5rem !important;
-  grid-template-columns: 1fr;
-  grid-template-rows: min-content min-content min-content min-content;
-  align-items: center;
+  display: grid !important; // Use grid layout
+  gap: 1.5rem !important; // Set gap between grid items
+  grid-template-columns: 1fr; // Single column grid
+  grid-template-rows: min-content min-content min-content min-content; // Rows adjust to content height
+  align-items: center; // Center align items
 
   .page-title {
-    grid-area: 1 / 1 / 2 / 3;
+    grid-area: 1 / 1 / 2 / 3; // Span across the first row
   }
 
   .search {
-    grid-area: 2 / 1 / 3 / 2;
+    grid-area: 2 / 1 / 3 / 2; // Span across the second row and first column
   }
 
   .darkmode {
-    grid-area: 2 / 2 / 3 / 3;
+    grid-area: 2 / 2 / 3 / 3; // Span across the second row and second column
   }
 
   .toc {
-    grid-row: 3;
-    grid-column: 1 / 3;
+    grid-row: 3; // Place in the third row
+    grid-column: 1 / 3; // Span across both columns
   }
 
   .recent-notes:nth-last-child(2) {
-    grid-area: 3 / 1 / 3 / 3;
+    grid-area: 3 / 1 / 3 / 3; // Place in the third row spanning both columns
   }
 
   .recent-notes:nth-last-child(1) {
-    grid-area: 4 / 1 / 4 / 3;
+    grid-area: 4 / 1 / 4 / 3; // Place in the fourth row spanning both columns
   }
 
   @media all and (max-width: $fullPageWidth) {
-    display: flex !important;
+    display: flex !important; // Use flexbox layout on smaller screens
   }
 }
 
+// Styling for horizontal rules (hr)
 hr {
-  overflow: visible;
-  padding: 0;
-  margin: 2em auto;
-  border: none;
-  color: var(--gray);
-  text-align: center;
-  width: 40%;
-  border-color: var(--gray);
+  overflow: visible; // Allow content to overflow
+  padding: 0; // Remove padding
+  margin: 2em auto; // Center and add vertical margin
+  border: none; // Remove border
+  color: var(--gray); // Set color
+  text-align: center; // Center align text
+  width: 40%; // Set width to 40%
+  border-color: var(--gray); // Set border color
 
   &:after {
-    content: "";
-    display: inline-block;
-    margin: -1em 0 0.5em;
-    font-size: 1.5em;
-    padding: 0.5em 1em;
-    
+    content: ""; // Empty content for styling
+    display: inline-block; // Display inline block
+    margin: -1em 0 0.5em; // Add margin
+    font-size: 1.5em; // Set font size
+    padding: 0.5em 1em; // Add padding
   }
 }

@@ -8,6 +8,8 @@ created date: 2024-05-15
 
 To the uninitiated, Post Internet art might seem like art "after the internet", which isn't inherently true. Like post-modernists, adapted and expanded on modernism, Post Internet Artists are using the internet to comment on complex issues and ideas.
 
+Post Internet Art is used to critique and explore [[AI]]. 
+
 
 > [!quote] [What Is Post-Internet Art? Understanding the Revolutionary New Art Movement - Artspace](https://www.artspace.com/magazine/interviews_features/trend_report/post_internet_art-52138)
 > post-Internet artists have moved beyond making work dependent on the novelty of the Web to using its tools to tackle other subjects...frequently uses digital strategies to create objects that exist in the real world.
@@ -56,3 +58,4 @@ Final consensus here:
 [[Oliver Laric]]
 [[Petra Cortright]]
 **[[Cory Arcangel]]**
+[[K Allado-McDowell]]

@@ -1,35 +1,41 @@
+// Import SCSS variables and mixins from various files
 @use "./variables.scss" as *;
 @use "./syntax.scss";
 @use "./callouts.scss";
 
+// Global HTML settings
 html {
-  scroll-behavior: smooth;
-  text-size-adjust: none;
-  overflow-x: hidden;
-  width: 100vw;
+  scroll-behavior: smooth; // Enable smooth scrolling
+  text-size-adjust: none;  // Disable text size adjustments in mobile browsers
+  overflow-x: hidden;      // Prevent horizontal scrolling
+  width: 100vw;            // Set the width to 100% of the viewport width
 }
 
+// Global settings for body and sections
 body,
 section {
-  margin: 0;
-  max-width: 100%;
-  box-sizing: border-box;
-  background-color: var(--light);
-  font-family: var(--bodyFont);
-  color: var(--darkgray);
+  margin: 0;                      // Remove default margin
+  max-width: 100%;                // Ensure max width is 100%
+  box-sizing: border-box;         // Include padding and border in element's total width and height
+  background-color: var(--light); // Set background color using a variable
+  font-family: var(--bodyFont);   // Set font family using a variable
+  color: var(--darkgray);         // Set text color using a variable
 }
 
+// Highlight text style
 .text-highlight {
-  background-color: #fff23688;
-  padding: 0 0.1rem;
-  border-radius: 5px;
+  background-color: #fff23688; // Set background color with transparency
+  padding: 0 0.1rem;           // Add horizontal padding
+  border-radius: 5px;          // Round the corners
 }
 
+// Style for selected text
 ::selection {
-  background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0));
-  color: var(--darkgray);
+  background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0)); // Blend colors for background
+  color: var(--darkgray); // Set text color
 }
 
+// General text elements styling
 p,
 ul,
 text,
@@ -41,106 +47,111 @@ ol,
 ul,
 .katex,
 .math {
-  color: var(--darkgray);
-  fill: var(--darkgray);
-  overflow-wrap: break-word;
-  hyphens: auto;
+  color: var(--darkgray);       // Set text color
+  fill: var(--darkgray);        // Set fill color for SVGs
+  overflow-wrap: break-word;    // Allow breaking words to fit
+  hyphens: auto;                // Enable automatic hyphenation
 }
 
+// Specific math elements styling
 .math {
-  font-size: 1rem;
+  font-size: 1rem; // Set font size
   &.math-display {
-    text-align: center;
+    text-align: center; // Center-align displayed math
   }
 }
 
+// Bold text styling
 strong {
-  font-weight: $semiBoldWeight;
+  font-weight: $semiBoldWeight; // Use semi-bold weight
 }
 
+// Anchor tag styling
 a {
-  font-weight: $semiBoldWeight;
-  text-decoration: none;
-  transition: color 0.2s ease;
-  color: var(--secondary);
+  font-weight: $semiBoldWeight;    // Use semi-bold weight
+  text-decoration: none;           // Remove underline
+  transition: color 0.2s ease;     // Smooth transition for color change
+  color: var(--secondary);         // Set text color
 
   &:hover {
-    color: var(--tertiary) !important;
+    color: var(--tertiary) !important; // Change color on hover
   }
 
   &.internal {
-    text-decoration: none;
-    background-color: var(--highlight);
-    padding: 0 0.1rem;
-    border-radius: 5px;
-    line-height: 1.4rem;
+    text-decoration: none;           // Remove underline
+    background-color: var(--highlight); // Highlight background
+    padding: 0 0.1rem;               // Add horizontal padding
+    border-radius: 5px;              // Round corners
+    line-height: 1.4rem;             // Set line height
 
     &:has(> img) {
-      background-color: none;
-      border-radius: 0;
-      padding: 0;
+      background-color: none; // Remove background for links containing images
+      border-radius: 0;       // Remove border radius
+      padding: 0;             // Remove padding
     }
     &.tag-link {
       &::before {
-        content: "#";
+        content: "#"; // Add hash symbol before tag links
       }
     }
   }
 
   &.external .external-icon {
-    height: 1ex;
-    margin: 0 0.2em;
+    height: 1ex; // Set icon height
+    margin: 0 0.2em; // Add horizontal margin
 
     > path {
-      fill: var(--dark);
+      fill: var(--dark); // Set icon color
     }
   }
 }
 
+// Display elements only on desktop or mobile
 .desktop-only {
   display: initial;
   @media all and (max-width: $fullPageWidth) {
-    display: none;
+    display: none; // Hide on smaller screens
   }
 }
 
 .mobile-only {
   display: none;
   @media all and (max-width: $fullPageWidth) {
-    display: initial;
+    display: initial; // Show on smaller screens
   }
 }
 
+// Page container styling
 .page {
   @media all and (max-width: $fullPageWidth) {
     margin: 0 auto;
-    padding: 0 1rem;
-    max-width: $pageWidth;
+    padding: 0 1rem;           // Add horizontal padding
+    max-width: $pageWidth;     // Set max width
   }
 
   & article {
     & > h1 {
-      font-size: 2rem;
+      font-size: 2rem; // Set font size for top-level headings
     }
 
     & li:has(> input[type="checkbox"]) {
-      list-style-type: none;
-      padding-left: 0;
+      list-style-type: none; // Remove bullet points for list items with checkboxes
+      padding-left: 0;       // Remove padding
     }
 
     & li:has(> input[type="checkbox"]:checked) {
-      text-decoration: line-through;
-      text-decoration-color: var(--gray);
-      color: var(--gray);
+      text-decoration: line-through;      // Strike through text when checked
+      text-decoration-color: var(--gray); // Set line-through color
+      color: var(--gray);                 // Set text color
     }
 
     & li > * {
-      margin-top: 0;
-      margin-bottom: 0;
+      margin-top: 0;   // Remove top margin
+      margin-bottom: 0; // Remove bottom margin
     }
 
     p > strong {
-      color: var(--dark);
+      color: var(--dark); // Set color for strong elements within paragraphs
     }
   }
 
@@ -148,115 +159,120 @@ a {
     width: 100%;
     display: flex;
     @media all and (max-width: $fullPageWidth) {
-      flex-direction: column;
+      flex-direction: column; // Stack flex items vertically on smaller screens
     }
 
     & .sidebar {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      top: 0;
-      width: $sidePanelWidth;
-      margin-top: $topSpacing;
-      box-sizing: border-box;
-      padding: 0 2.5rem;
-      position: fixed;
+      flex: 1;               // Allow sidebar to grow
+      display: flex;         // Use flexbox layout
+      flex-direction: column; // Stack items vertically
+      gap: 2rem;             // Add vertical space between items
+      top: 0;                // Align to top
+      width: $sidePanelWidth; // Set sidebar width
+      margin-top: $topSpacing; // Add top margin
+      box-sizing: border-box; // Include padding and border in width and height
+      padding: 0 2.5rem;     // Add horizontal padding
+      position: fixed;       // Fix sidebar position
       @media all and (max-width: $fullPageWidth) {
-        position: initial;
-        flex-direction: row;
-        padding: 0;
-        width: initial;
-        margin-top: 2rem;
+        position: initial;       // Reset position on smaller screens
+        flex-direction: row;     // Arrange items horizontally
+        padding: 0;              // Remove padding
+        width: initial;          // Reset width
+        margin-top: 2rem;        // Add top margin
       }
     }
 
     & .sidebar.left {
-      left: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
+      left: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth); // Position sidebar on the left
       @media all and (max-width: $fullPageWidth) {
-        gap: 0;
-        align-items: center;
+        gap: 0;              // Remove gap
+        align-items: center; // Center items horizontally
       }
     }
 
     & .sidebar.right {
-      right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
-      flex-wrap: wrap;
+      right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth); // Position sidebar on the right
+      flex-wrap: wrap;       // Allow wrapping
       & > * {
         @media all and (max-width: $fullPageWidth) {
-          flex: 1;
-          min-width: 140px;
+          flex: 1;            // Allow items to grow
+          min-width: 140px;   // Set minimum width
         }
       }
     }
   }
 
   & .page-header {
-    width: $pageWidth;
-    margin: $topSpacing auto 0 auto;
+    width: $pageWidth; // Set header width
+    margin: $topSpacing auto 0 auto; // Center header with top margin
     @media all and (max-width: $fullPageWidth) {
-      width: initial;
-      margin-top: 2rem;
+      width: initial;        // Reset width
+      margin-top: 2rem;      // Add top margin
     }
   }
 
   & .center,
   & footer {
-    margin-left: auto;
-    margin-right: auto;
-    width: $pageWidth;
+    margin-left: auto;       // Center horizontally
+    margin-right: auto;      // Center horizontally
+    width: $pageWidth;       // Set width
     @media all and (max-width: $fullPageWidth) {
-      width: initial;
-      margin-left: 0;
-      margin-right: 0;
+      width: initial;        // Reset width
+      margin-left: 0;        // Reset left margin
+      margin-right: 0;       // Reset right margin
     }
   }
 }
 
+// Footnotes styling
 .footnotes {
-  margin-top: 2rem;
-  border-top: 1px solid var(--lightgray);
+  margin-top: 2rem;                   // Add top margin
+  border-top: 1px solid var(--lightgray); // Add top border
 }
 
+// Checkbox input styling
 input[type="checkbox"] {
-  transform: translateY(2px);
-  color: var(--secondary);
-  border: 1px solid var(--lightgray);
-  border-radius: 3px;
-  background-color: var(--light);
-  position: relative;
-  margin-inline-end: 0.2rem;
-  margin-inline-start: -1.4rem;
-  appearance: none;
-  width: 16px;
-  height: 16px;
+  transform: translateY(2px);         // Move down slightly
+  color: var(--secondary);            // Set color
+  border: 1px solid var(--lightgray); // Set border color
+  border-radius: 3px;                 // Round corners
+  background-color: var(--light);     // Set background color
+  position: relative;                 // Set relative positioning
+  margin-inline-end: 0.2rem;          // Add right margin
+  margin-inline-start: -1.4rem;       // Add left margin
+  appearance: none;                   // Remove default styling
+  width: 16px;                        // Set width
+  height: 16px;                       // Set height
 
   &:checked {
-    border-color: var(--secondary);
-    background-color: var(--secondary);
+    border-color: var(--secondary);   // Change border color when checked
+    background-color: var(--secondary); // Change background color when checked
 
     &::after {
-      content: "";
-      position: absolute;
-      left: 4px;
-      top: 1px;
-      width: 4px;
-      height: 8px;
-      display: block;
-      border: solid var(--light);
-      border-width: 0 2px 2px 0;
-      transform: rotate(45deg);
+      content: "";                    // Add check mark
+      position: absolute;             // Position absolutely
+      left: 4px;                      // Position from left
+      top: 1px;                       // Position from top
+      width: 4;                        
+      width: 4px;                       // Set width
+      height: 8px;                      // Set height
+      display: block;                   // Display as block element
+      border: solid var(--light);       // Set border color
+      border-width: 0 2px 2px 0;        // Set border widths
+      transform: rotate(45deg);         // Rotate to create a check mark
     }
   }
 }
 
+// Blockquote styling
 blockquote {
-  margin: 1rem 0;
-  border-left: 3px solid var(--secondary);
-  padding-left: 1rem;
-  transition: border-color 0.2s ease;
+  margin: 1rem 0;                       // Add vertical margin
+  border-left: 3px solid var(--secondary); // Add left border
+  padding-left: 1rem;                   // Add left padding
+  transition: border-color 0.2s ease;   // Smooth transition for border color
 }
 
+// Heading and table header styling
 h1,
 h2,
 h3,
@@ -264,17 +280,18 @@ h4,
 h5,
 h6,
 thead {
-  font-family: var(--headerFont);
-  color: var(--dark);
-  font-weight: revert;
-  margin-bottom: 0;
+  font-family: var(--headerFont);       // Set font family
+  color: var(--dark);                   // Set text color
+  font-weight: revert;                  // Revert to default font weight
+  margin-bottom: 0;                     // Remove bottom margin
 
   article > & > a[role="anchor"] {
-    color: var(--dark);
-    background-color: transparent;
+    color: var(--dark);                 // Set text color
+    background-color: transparent;      // Remove background color
   }
 }
 
+// ID-based heading styling and hover effects
 h1,
 h2,
 h3,
@@ -282,240 +299,256 @@ h4,
 h5,
 h6 {
   &[id] > a[href^="#"] {
-    margin: 0 0.5rem;
-    opacity: 0;
-    transition: opacity 0.2s ease;
-    transform: translateY(-0.1rem);
-    font-family: var(--codeFont);
-    user-select: none;
+    margin: 0 0.5rem;                   // Add horizontal margin
+    opacity: 0;                         // Make invisible
+    transition: opacity 0.2s ease;      // Smooth transition for opacity
+    transform: translateY(-0.1rem);     // Slight vertical shift
+    font-family: var(--codeFont);       // Set font family
+    user-select: none;                  // Disable text selection
   }
 
   &[id]:hover > a {
-    opacity: 1;
+    opacity: 1;                         // Make visible on hover
   }
 }
 
-// typography improvements
+// Typography improvements for headings
 h1 {
-  font-size: 1.75rem;
-  margin-top: 2.25rem;
-  margin-bottom: 1rem;
+  font-size: 1.75rem;                   // Set font size
+  margin-top: 2.25rem;                  // Add top margin
+  margin-bottom: 1rem;                  // Add bottom margin
 }
 
 h2 {
-  font-size: 1.4rem;
-  margin-top: 1.9rem;
-  margin-bottom: 1rem;
+  font-size: 1.4rem;                    // Set font size
+  margin-top: 1.9rem;                   // Add top margin
+  margin-bottom: 1rem;                  // Add bottom margin
 }
 
 h3 {
-  font-size: 1.12rem;
-  margin-top: 1.62rem;
-  margin-bottom: 1rem;
+  font-size: 1.12rem;                   // Set font size
+  margin-top: 1.62rem;                  // Add top margin
+  margin-bottom: 1rem;                  // Add bottom margin
 }
 
 h4,
 h5,
 h6 {
-  font-size: 1rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
+  font-size: 1rem;                      // Set font size
+  margin-top: 1.5rem;                   // Add top margin
+  margin-bottom: 1rem;                  // Add bottom margin
 }
 
+// Styling for code block containers
 figure[data-rehype-pretty-code-figure] {
-  margin: 0;
-  position: relative;
-  line-height: 1.6rem;
-  position: relative;
+  margin: 0;                            // Remove margin
+  position: relative;                   // Set relative positioning
+  line-height: 1.6rem;                  // Set line height
 
   & > [data-rehype-pretty-code-title] {
-    font-family: var(--codeFont);
-    font-size: 0.9rem;
-    padding: 0.1rem 0.5rem;
-    border: 1px solid var(--lightgray);
-    width: max-content;
-    border-radius: 5px;
-    margin-bottom: -0.5rem;
-    color: var(--darkgray);
+    font-family: var(--codeFont);       // Set font family
+    font-size: 0.9rem;                  // Set font size
+    padding: 0.1rem 0.5rem;             // Add padding
+    border: 1px solid var(--lightgray); // Add border
+    width: max-content;                 // Fit content width
+    border-radius: 5px;                 // Round corners
+    margin-bottom: -0.5rem;             // Add bottom margin
+    color: var(--darkgray);             // Set text color
   }
 
   & > pre {
-    padding: 0;
+    padding: 0;                         // Remove padding
   }
 }
 
+// Styling for preformatted text blocks
 pre {
-  font-family: var(--codeFont);
-  padding: 0 0.5rem;
-  border-radius: 5px;
-  overflow-x: auto;
-  border: 1px solid var(--lightgray);
-  position: relative;
+  font-family: var(--codeFont);         // Set font family
+  padding: 0 0.5rem;                    // Add horizontal padding
+  border-radius: 5px;                   // Round corners
+  overflow-x: auto;                     // Allow horizontal scrolling
+  border: 1px solid var(--lightgray);   // Add border
+  position: relative;                   // Set relative positioning
 
   &:has(> code.mermaid) {
-    border: none;
+    border: none;                       // Remove border for mermaid code
   }
 
   & > code {
-    background: none;
-    padding: 0;
-    font-size: 0.85rem;
-    counter-reset: line;
-    counter-increment: line 0;
-    display: grid;
-    padding: 0.5rem 0;
-    overflow-x: scroll;
+    background: none;                   // Remove background
+    padding: 0;                         // Remove padding
+    font-size: 0.85rem;                 // Set font size
+    counter-reset: line;                // Reset line counter
+    counter-increment: line 0;          // Increment line counter
+    display: grid;                      // Use grid layout
+    padding: 0.5rem 0;                  // Add vertical padding
+    overflow-x: scroll;                 // Allow horizontal scrolling
 
     & [data-highlighted-chars] {
-      background-color: var(--highlight);
-      border-radius: 5px;
+      background-color: var(--highlight); // Highlight background color
+      border-radius: 5px;                 // Round corners
     }
 
     & > [data-line] {
-      padding: 0 0.25rem;
-      box-sizing: border-box;
-      border-left: 3px solid transparent;
+      padding: 0 0.25rem;                // Add horizontal padding
+      box-sizing: border-box;            // Include padding in width and height
+      border-left: 3px solid transparent; // Add transparent left border
 
       &[data-highlighted-line] {
-        background-color: var(--highlight);
-        border-left: 3px solid var(--secondary);
+        background-color: var(--highlight); // Highlight background color
+        border-left: 3px solid var(--secondary); // Add left border
       }
 
       &::before {
-        content: counter(line);
-        counter-increment: line;
-        width: 1rem;
-        margin-right: 1rem;
-        display: inline-block;
-        text-align: right;
-        color: rgba(115, 138, 148, 0.6);
+        content: counter(line);          // Display line number
+        counter-increment: line;         // Increment line number
+        width: 1rem;                     // Set width
+        margin-right: 1rem;              // Add right margin
+        display: inline-block;           // Display as inline block
+        text-align: right;               // Align text to the right
+        color: rgba(115, 138, 148, 0.6); // Set text color with transparency
       }
     }
 
     &[data-line-numbers-max-digits="2"] > [data-line]::before {
-      width: 2rem;
+      width: 2rem;                      // Set width for double-digit line numbers
     }
 
     &[data-line-numbers-max-digits="3"] > [data-line]::before {
-      width: 3rem;
+      width: 3rem;                      // Set width for triple-digit line numbers
     }
   }
 }
 
+// Inline code styling
 code {
-  font-size: 0.9em;
-  color: var(--dark);
-  font-family: var(--codeFont);
-  border-radius: 5px;
-  padding: 0.1rem 0.2rem;
-  background: var(--lightgray);
+  font-size: 0.9em;                     // Set font size
+  color: var(--dark);                   // Set text color
+  font-family: var(--codeFont);         // Set font family
+  border-radius: 5px;                   // Round corners
+  padding: 0.1rem 0.2rem;               // Add padding
+  background: var(--lightgray);         // Set background color
 }
 
+// Line height for text elements
 tbody,
 li,
 p {
-  line-height: 1.6rem;
+  line-height: 1.6rem;                  // Set line height
 }
 
+// Table container styling
 .table-container {
-  overflow-x: auto;
+  overflow-x: auto;                     // Allow horizontal scrolling
 
   & > table {
-    margin: 1rem;
-    padding: 1.5rem;
-    border-collapse: collapse;
+    margin: 1rem;                       // Add margin
+    padding: 1.5rem;                    // Add padding
+    border-collapse: collapse;          // Collapse borders
 
     th,
     td {
-      min-width: 75px;
+      min-width: 75px;                  // Set minimum width
     }
 
     & > * {
-      line-height: 2rem;
+      line-height: 2rem;                // Set line height
     }
   }
 }
 
+// Table header styling
 th {
-  text-align: left;
-  padding: 0.4rem 0.7rem;
-  border-bottom: 2px solid var(--gray);
+  text-align: left;                     // Align text to the left
+  padding: 0.4rem 0.7rem;               // Add padding
+  border-bottom: 2px solid var(--gray); // Add bottom border
 }
 
+// Table cell styling
 td {
-  padding: 0.2rem 0.7rem;
+  padding: 0.2rem 0.7rem;               // Add padding
 }
 
+// Table row styling
 tr {
-  border-bottom: 1px solid var(--lightgray);
+  border-bottom: 1px solid var(--lightgray); // Add bottom border
   &:last-child {
-    border-bottom: none;
+    border-bottom: none;                // Remove border for last row
   }
 }
 
+// Image styling
 img {
-  max-width: 100%;
-  border-radius: 5px;
-  margin: 1rem 0;
+  max-width: 100%;                      // Ensure images do not exceed container width
+  border-radius: 5px;                   // Round corners
+  margin: 1rem 0;                       // Add vertical margin
 }
 
+// Styling for images followed by emphasized text
 p > img + em {
-  display: block;
-  transform: translateY(-1rem);
+  display: block;                       // Display as block element
+  transform: translateY(-1rem);         // Move up slightly
 }
 
+// Horizontal rule styling
 hr {
-  width: 100%;
-  margin: 2rem auto;
-  height: 1px;
-  border: none;
-  background-color: var(--lightgray);
+  width: 100%;                          // Set width to 100%
+  margin: 2rem auto;                    // Add vertical margin
+  height: 1px;                          // Set height
+  border: none;                         // Remove border
+  background-color: var(--lightgray);   // Set background color
 }
 
+// Audio and video element styling
 audio,
 video {
-  width: 100%;
-  border-radius: 5px;
+  width: 100%;                          // Set width to 100%
+  border-radius: 5px;                   // Round corners
 }
 
+// Spacer element styling
 .spacer {
-  flex: 1 1 auto;
+  flex: 1 1 auto;                       // Allow element to grow and shrink
 }
 
+// Overflow list styling
 ul.overflow,
 ol.overflow {
   max-height: 350px;
-  overflow-y: auto;
+  max-height: 350px;                   // Set maximum height
+  overflow-y: auto;                    // Enable vertical scrolling
 
-  // clearfix
+  // Clearfix for floated elements
   content: "";
   clear: both;
 
   & > li:last-of-type {
-    margin-bottom: 30px;
+    margin-bottom: 30px;               // Add bottom margin to the last list item
   }
 
   &:after {
-    pointer-events: none;
-    content: "";
-    width: 100%;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    opacity: 1;
-    transition: opacity 0.3s ease;
-    background: linear-gradient(transparent 0px, var(--light));
+    pointer-events: none;              // Prevent interaction
+    content: "";                       // Add content for styling purposes
+    width: 100%;                       // Set width to 100%
+    height: 50px;                      // Set height
+    position: absolute;                // Position absolutely
+    left: 0;                           // Align to the left
+    bottom: 0;                         // Align to the bottom
+    opacity: 1;                        // Set opacity
+    transition: opacity 0.3s ease;     // Smooth transition for opacity
+    background: linear-gradient(transparent 0px, var(--light)); // Gradient background
   }
 }
 
+// Nested list padding in transcluded content
 .transclude {
   ul {
-    padding-left: 1rem;
+    padding-left: 1rem;                // Add left padding to nested lists
   }
 }
 
+// KaTeX display element styling
 .katex-display {
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow-x: auto;                    // Enable horizontal scrolling
+  overflow-y: hidden;                  // Disable vertical scrolling
 }
