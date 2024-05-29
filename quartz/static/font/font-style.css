@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Jacquard12';
+  src: url('quartz/static/font/Jacquard12-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Handjet';
+  src: url('quartz/static/font/Handjet-VariableFont_ELGR,ELSH,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

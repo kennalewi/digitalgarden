@@ -97,6 +97,19 @@ hr {
   }
 }
 
+pre.poetry {
+  font-size: 1.2rem;
+  font-family: Jacquard12;
+  border: none;
+  padding: 0;
+  position: unset;
+}
+
+.meta,
 .content-meta {
-  font-family: "Maven Pro";
+  font-family: Jacquard12, var(--bodyFont);
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: var(--lightgray);
 }
