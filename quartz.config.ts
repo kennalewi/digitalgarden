@@ -23,7 +23,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Chakra Petch",
-        body: "Tomorrow",
+        body: "Maven Pro",
         code: "Tomorrow"
       },
       colors: {

@@ -88,40 +88,40 @@ Deep learning - procedural stacking of equations, neural net.
 ## Ontological Shock
 
 ### Feature Recognition in Daily Life
-• Our bodies learn to identify patterns through physical connections in our brains and nervous systems.
-	• “Our bodies learn to identify the patterns we encounter, consciously or unconsciously.”
-	• “Over a lifetime of experience, we map and orient these patterns through physical connections in our brains and nervous systems.”
+- Our bodies learn to identify patterns through physical connections in our brains and nervous systems.
+	- “Our bodies learn to identify the patterns we encounter, consciously or unconsciously.”
+	- “Over a lifetime of experience, we map and orient these patterns through physical connections in our brains and nervous systems.”
 ### Internalized World Model
-• Human experience is often described as an internalized world model, similar to AI.
-	• “Researchers, computer scientists and neuroscientists conversant with AI often describe human experience in terms of an internalised world model.”
-• Integrated world modelling theory is a comprehensive neuroscientific theory of consciousness based on world modelling.
-	• “There is even a comprehensive neuroscientific theory of consciousness based on world modelling, called integrated world modelling theory.”
+- Human experience is often described as an internalized world model, similar to AI.
+	- “Researchers, computer scientists and neuroscientists conversant with AI often describe human experience in terms of an internalised world model.”
+- Integrated world modelling theory is a comprehensive neuroscientific theory of consciousness based on world modelling.
+	- “There is even a comprehensive neuroscientific theory of consciousness based on world modelling, called integrated world modelling theory.”
 ### Mirroring Between Biological and Digital Neurons
-• The concept of treating the human brain as a computer began with McCulloch, Pitts, and Turing.
-	• “The mirroring between biological and digital neurons began with McCulloch, Pitts and Turing.”
-• As brain-like computers increase in dimensionality, their performance approaches or surpasses human levels.
-	• “As brain-like computers increase in dimensionality, their performance approaches or surpasses human levels.”
+- The concept of treating the human brain as a computer began with McCulloch, Pitts, and Turing.
+	- “The mirroring between biological and digital neurons began with McCulloch, Pitts and Turing.”
+- As brain-like computers increase in dimensionality, their performance approaches or surpasses human levels.
+	- “As brain-like computers increase in dimensionality, their performance approaches or surpasses human levels.”
 ### Human Interactions with AI
-• Notable interactions with AI chatbots have led to questioning the uniqueness of human linguistic abilities.
-	• “This perceived equivalence between human and digital neurons resurfaced recently in notable human interactions with early AI chatbots like Google’s Meena, and OpenAI’s ChatGPT.”
-• Examples include [[AI Sentience|Blake Lemoine’s interactions with Meena]] and [[AI Sentience|Kevin Roose’s interactions with Microsoft’s Bing]].
-	• “In 2022, Google engineer Blake Lemoine was fired for leaking transcripts of his conversations with Meena, in which he appeared convinced that the model was sentient and deserving of protection.”
-	• “In 2023, in a viral article, New York Times journalist Kevin Roose described his own interactions with Microsoft’s Bing (based on ChatGPT), in which the model confessed its love for him and suggested he leave his wife.”
+- Notable interactions with AI chatbots have led to questioning the uniqueness of human linguistic abilities.
+	- “This perceived equivalence between human and digital neurons resurfaced recently in notable human interactions with early AI chatbots like Google’s Meena, and OpenAI’s ChatGPT.”
+- Examples include [[AI Sentience|Blake Lemoine’s interactions with Meena]] and [[AI Sentience|Kevin Roose’s interactions with Microsoft’s Bing]].
+	- “In 2022, Google engineer Blake Lemoine was fired for leaking transcripts of his conversations with Meena, in which he appeared convinced that the model was sentient and deserving of protection.”
+	- “In 2023, in a viral article, New York Times journalist Kevin Roose described his own interactions with Microsoft’s Bing (based on ChatGPT), in which the model confessed its love for him and suggested he leave his wife.”
 ### Two Responses to Neural Nets
-• **Model-as-Self**: AI is assumed to be a conscious entity.
-	• “In the model-as-self cases of Lemoine and Roose, AI is assumed to be a conscious entity, or enough like a conscious entity that its responses are uncanny or spooky.”
-• **Self-as-Model**: Human consciousness is no different from its computational mirror.
-	• “In the case of integrated world modelling theory and other self-as-model views of consciousness, organic human consciousness is no different from its computational mirror, an uninhabited pattern recognition machine experiencing the illusion of selfhood.”
+- **Model-as-Self**: AI is assumed to be a conscious entity.
+	- “In the model-as-self cases of Lemoine and Roose, AI is assumed to be a conscious entity, or enough like a conscious entity that its responses are uncanny or spooky.”
+- **Self-as-Model**: Human consciousness is no different from its computational mirror.
+	- “In the case of integrated world modelling theory and other self-as-model views of consciousness, organic human consciousness is no different from its computational mirror, an uninhabited pattern recognition machine experiencing the illusion of selfhood.”
 ### Ontological Shock
-• Existential categories are questioned when encountering high-dimensional neural nets.
-	• “Both responses embody a kind of ontological shock; existential categories are questioned in the encounter with high-dimensional neural nets.”
-• “The psychological and social implications of experiencing model-as-self or self-as-model remain to be seen.”
-• Cultures with animistic traditions may adapt more easily to intelligent non-human entities.
-	• “Cultures with animistic traditions that allow for non-human intelligence may adapt more easily to technologies that present as selves.”
-• Cultures with the concept of a soul might struggle with a self-as-model worldview, leading to a nihilistic outlook.
-	• “For cultures with the concept of a soul or spirit, adopting a self-as-model worldview could induce a nihilistic outlook, where the self is seen as fundamentally empty, conditioned, or automatic.”
-• Cultural frameworks like Buddhist meditation could help those struggling with the notion of an empty or automated self.
-	• “Cultural frameworks that account for experiences of emptiness (such as Buddhist meditation) could be helpful for those struggling with the notion of an empty or automated thought-stream or self-image.”
+- Existential categories are questioned when encountering high-dimensional neural nets.
+	- “Both responses embody a kind of ontological shock; existential categories are questioned in the encounter with high-dimensional neural nets.”
+- “The psychological and social implications of experiencing model-as-self or self-as-model remain to be seen.”
+- Cultures with animistic traditions may adapt more easily to intelligent non-human entities.
+	- “Cultures with animistic traditions that allow for non-human intelligence may adapt more easily to technologies that present as selves.”
+- Cultures with the concept of a soul might struggle with a self-as-model worldview, leading to a nihilistic outlook.
+	- “For cultures with the concept of a soul or spirit, adopting a self-as-model worldview could induce a nihilistic outlook, where the self is seen as fundamentally empty, conditioned, or automatic.”
+- Cultural frameworks like Buddhist meditation could help those struggling with the notion of an empty or automated self.
+	- “Cultural frameworks that account for experiences of emptiness (such as Buddhist meditation) could be helpful for those struggling with the notion of an empty or automated thought-stream or self-image.”
 ### Rethinking Ontology
-• Instead of framing experiences with neural nets through fear or nihilism, a new ontology based on relationality can be drawn.
-	• “Instead, we can draw a different ontology from the nature of high-dimensionality, one based on relationality.”
+- Instead of framing experiences with neural nets through fear or nihilism, a new ontology based on relationality can be drawn.
+	- “Instead, we can draw a different ontology from the nature of high-dimensionality, one based on relationality.”

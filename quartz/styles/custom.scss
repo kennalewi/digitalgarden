@@ -20,7 +20,7 @@ body {
 #texture {
   position: absolute; 
   width: 100%; // Set width to 100%
-  height: 100%; // Set height to 100%
+  height: 102%; // Set height to 100%
   background-image: url("/static/texture.png"); // Set background image
   mix-blend-mode: hard-light; // Use hard-light blend mode
   pointer-events: none; // Ignore pointer events
@@ -30,6 +30,7 @@ body {
 // Change blend mode for dark theme
 [saved-theme="dark"] #texture {
   mix-blend-mode: overlay; // Use overlay blend mode for dark theme
+  opacity: 30%; // Lighten color of grain
 }
 
 // Invert colors for banner images in dark theme
@@ -79,7 +80,7 @@ body {
 hr {
   overflow: visible; // Allow content to overflow
   padding: 0; // Remove padding
-  margin: 2em auto; // Center and add vertical margin
+  margin: 4em auto; // Center and add vertical margin
   border: none; // Remove border
   color: var(--gray); // Set color
   text-align: center; // Center align text
@@ -87,14 +88,15 @@ hr {
   border-color: var(--gray); // Set border color
 
   &:after {
-    content: ""; // Empty content for styling
+    content: " * * * "; // Empty content for styling
     display: inline-block; // Display inline block
     margin: -1em 0 0.5em; // Add margin
     font-size: 1.5em; // Set font size
     padding: 0.5em 1em; // Add padding
+    background: var(--light);
   }
 }
 
 .content-meta {
-  font-family: "Jersey 10";
+  font-family: "Maven Pro";
 }
