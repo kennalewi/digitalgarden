@@ -22,7 +22,7 @@ body {
   width: 100%; // Set width to 100%
   height: 102%; // Set height to 100%
   background-image: url("/static/texture.png"); // Set background image
-  mix-blend-mode: hard-light; // Use hard-light blend mode
+  mix-blend-mode: overlay; // Use hard-light blend mode
   pointer-events: none; // Ignore pointer events
   z-index: -1; // Place behind other elements
 }
