@@ -15,16 +15,16 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "kennalewis.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Inconsolata",
-        body: "Inconsolata",
-        code: "Inconsolata",
+        header: "Chakra Petch",
+        body: "Tomorrow",
+        code: "Tomorrow"
       },
       colors: {
         lightMode: {

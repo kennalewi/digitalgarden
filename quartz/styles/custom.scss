@@ -18,10 +18,10 @@ body {
 
 // Styling for a fixed background texture
 #texture {
-  position: fixed; // Fix position relative to the viewport
+  position: absolute; 
   width: 100%; // Set width to 100%
   height: 100%; // Set height to 100%
-  background-image: url("quartz/static/texture2.png"); // Set background image
+  background-image: url("/static/texture.png"); // Set background image
   mix-blend-mode: hard-light; // Use hard-light blend mode
   pointer-events: none; // Ignore pointer events
   z-index: -1; // Place behind other elements
@@ -93,4 +93,8 @@ hr {
     font-size: 1.5em; // Set font size
     padding: 0.5em 1em; // Add padding
   }
+}
+
+.content-meta {
+  font-family: "Jersey 10";
 }
