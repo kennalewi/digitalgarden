@@ -1,10 +1,8 @@
-// Import base styles and custom variables
 @use "./base.scss";
 
-// Import custom variables
+// put your custom CSS here!
 @use "./variables.scss" as *;
 
-// Custom styling for body with data attribute "data-slug" set to "index"
 body[data-slug="index"] img {
   filter: invert(0%);
   opacity: 0.85;
@@ -19,7 +17,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("/static/texture.png");
+  background-image: url("/static/texture2.png");
   mix-blend-mode: hard-light;
   pointer-events: none;
   z-index: -1;
@@ -37,7 +35,7 @@ body[data-slug="index"] {
   & li:has(> img, > video) {
     list-style-type: none;
 
-    & > img, & > video {
+    &>img, &>video {
       margin: 1rem 0;
     }
   }
@@ -52,87 +50,76 @@ body[data-slug="index"] {
   }
 }
 
-// Global body styling
-body {
-  position: relative; // Position relative to contain absolutely positioned children
-  min-height: 100vh; // Set minimum height to 100% of the viewport height
-}
-
-// Styling for a fixed background texture
-#texture {
-  position: fixed; // Fix position relative to the viewport
-  width: 100%; // Set width to 100%
-  height: 100%; // Set height to 100%
-  background-image: url("quartz/static/texture2.png"); // Set background image
-  mix-blend-mode: hard-light; // Use hard-light blend mode
-  pointer-events: none; // Ignore pointer events
-  z-index: -1; // Place behind other elements
-}
-
-// Change blend mode for dark theme
-[saved-theme="dark"] #texture {
-  mix-blend-mode: overlay; // Use overlay blend mode for dark theme
-}
-
-// Invert colors for banner images in dark theme
-[saved-theme="dark"] body[data-slug="index"] img[src*="banner.svg"] {
-  filter: invert(100%); // Invert colors for banner images
-}
-
-// Styling for elements with class "left"
 .left {
-  display: grid !important; // Use grid layout
-  gap: 1.5rem !important; // Set gap between grid items
-  grid-template-columns: 1fr; // Single column grid
-  grid-template-rows: min-content min-content min-content min-content; // Rows adjust to content height
-  align-items: center; // Center align items
+  display: grid !important;
+  gap: 1.5rem !important;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content min-content min-content min-content;
+  align-items: center;
 
   .page-title {
-    grid-area: 1 / 1 / 2 / 3; // Span across the first row
+    grid-area: 1 / 1 / 2 / 3;
   }
 
   .search {
-    grid-area: 2 / 1 / 3 / 2; // Span across the second row and first column
+    grid-area: 2 / 1 / 3 / 2;
   }
 
   .darkmode {
-    grid-area: 2 / 2 / 3 / 3; // Span across the second row and second column
+    grid-area: 2 / 2 / 3 / 3;
   }
 
   .toc {
-    grid-row: 3; // Place in the third row
-    grid-column: 1 / 3; // Span across both columns
+    grid-row: 3;
+    grid-column: 1 / 3;
   }
 
   .recent-notes:nth-last-child(2) {
-    grid-area: 3 / 1 / 3 / 3; // Place in the third row spanning both columns
+    grid-area: 3 / 1 / 3 / 3;
   }
 
   .recent-notes:nth-last-child(1) {
-    grid-area: 4 / 1 / 4 / 3; // Place in the fourth row spanning both columns
+    grid-area: 4 / 1 / 4 / 3;
   }
 
   @media all and (max-width: $fullPageWidth) {
-    display: flex !important; // Use flexbox layout on smaller screens
+    display: flex !important;
   }
 }
 
-// Styling for horizontal rules (hr)
 hr {
-  overflow: visible; // Allow content to overflow
-  padding: 0; // Remove padding
-  margin: 2em auto; // Center and add vertical margin
-  border: none; // Remove border
-  color: var(--gray); // Set color
-  text-align: center; // Center align text
-  width: 40%; // Set width to 40%
-  border-color: var(--gray); // Set border color
+  overflow: visible;
+  padding: 0;
+  margin: 4em auto;
+  border: none;
+  color: var(--gray);
+  text-align: center;
+  width: 40%;
+  border-color: var(--gray);
 
   &:after {
-    content: ""; // Empty content for styling
-    display: inline-block; // Display inline block
-    margin: -1em 0 0.5em; // Add margin
-    font-size: 1.5em; // Set font size
-    padding: 0.5em 1em; // Add padding
+    content: "* * *";
+    display: inline-block;
+    margin: -1em 0 0.5em;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    background: var(--light);
   }
+}
+
+pre.poetry {
+  font-size: 1.2rem;
+  font-family: biro_script_standardRgus;
+  border: none;
+  padding: 0;
+  position: unset;
+}
+
+.meta,
+.content-meta {
+  font-family: biro_script_standardRgus, var(--bodyFont);
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: var(--lightgray);
 }
