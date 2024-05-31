@@ -495,7 +495,7 @@ p > img + em {
 hr {
   width: 100%;                          // Set width to 100%
   margin: 2rem auto;                    // Add vertical margin
-  height: 1px;                          // Set height
+  height: 0px;                          // Set height
   border: none;                         // Remove border
   background-color: var(--lightgray);   // Set background color
 }
@@ -515,9 +515,9 @@ video {
 // Overflow list styling
 ul.overflow,
 ol.overflow {
-  max-height: 350px;
   max-height: 350px;                   // Set maximum height
   overflow-y: auto;                    // Enable vertical scrolling
+  overflow-x: hidden;
 
   // Clearfix for floated elements
   content: "";
@@ -537,7 +537,8 @@ ol.overflow {
     bottom: 0;                         // Align to the bottom
     opacity: 1;                        // Set opacity
     transition: opacity 0.3s ease;     // Smooth transition for opacity
-    background: linear-gradient(transparent 0px, var(--light)); // Gradient background
+    background: linear-gradient(transparent 0px, var(--light2)); /* Gradient background */
+    mix-blend-mode: multiply;          /* Blend mode */
   }
 }
 

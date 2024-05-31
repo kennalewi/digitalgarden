@@ -34,7 +34,6 @@ export const defaultContentPageLayout: PageLayout = {
       limit: 5,
       linkToMore: "posts/" as SimpleSlug,
     })),
-    Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
     Component.Graph({

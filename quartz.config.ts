@@ -28,24 +28,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f4f4f4",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#071e22",
-          secondary: "#1d5778",
-          tertiary: "#3498d1",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light2: "#f8f1e4",
+          light: "#fbf7ee",       // adapted from #DAD7CD to #fbf7ee
+          lightgray: "#e0dcd3",   // adapted from #abb0ad to #e0dcd3
+          gray: "#88976e",        // same in both modes
+          darkgray: "#2c3831",    // adapted from #2c3831 to #2a354b
+          dark: "#161a18",        // adapted from #161a18 to #08142c
+          secondary: "#3a5a40",   // adapted from #3A5A40 to #274b75
+          tertiary: "#5e7e64",    // same in both modes
+          highlight: "#8f9fa926"  // same in both modes
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#2279ab",
-          tertiary: "#3297d1",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light2: "#101512",
+          light: "#161a18",
+          lightgray: "#2c3831",
+          gray: "#A3B18A",
+          darkgray: "#abb0ad",
+          dark: "#DAD7CD",
+          secondary: "#3A5A40",
+          tertiary: "#dad7cdc2",
+          highlight: "#8f9fa926"
         },
       },
     },

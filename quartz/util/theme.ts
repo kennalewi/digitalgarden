@@ -1,4 +1,5 @@
 export interface ColorScheme {
+  light2: string
   light: string      // Used in: body, section background color
   lightgray: string  // Used in: blockquote border, footnotes border, table cell border, horizontal rule background, checkbox border, preformatted text border, code background
   gray: string       // Used in: table header border, completed checkbox text, recent-notes strike-through text color
@@ -41,6 +42,7 @@ export function joinStyles(theme: Theme, ...stylesheet: string[]) {
 ${stylesheet.join("\n\n")}
 
 :root {
+  --light2: ${theme.colors.lightMode.light2};
   --light: ${theme.colors.lightMode.light};
   --lightgray: ${theme.colors.lightMode.lightgray};
   --gray: ${theme.colors.lightMode.gray};
@@ -56,6 +58,7 @@ ${stylesheet.join("\n\n")}
 }
 
 :root[saved-theme="dark"] {
+  --light2: ${theme.colors.darkMode.light2};
   --light: ${theme.colors.darkMode.light};
   --lightgray: ${theme.colors.darkMode.lightgray};
   --gray: ${theme.colors.darkMode.gray};

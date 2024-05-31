@@ -1,7 +1,14 @@
 ---
-title: Welcome to My Island
+title: kennalewis.com
+tags:
+  - evergreen
 ---
 ![[banner.svg]]
+
+```poetry
+Welcome to my Digital Garden
+```
+
 Hello, my name is Kenna and I'm a student at the University of Cincinnati studying to receive my Bachelors of Fine Arts. I also received my Associates of Applied Business, in Applied Graphic Communications at the University of Cincinnati Blue Ash.
 
 This is my [[Digital Garden]], where I engage in [[Learning in Public]].

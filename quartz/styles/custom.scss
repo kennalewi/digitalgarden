@@ -84,21 +84,20 @@ hr {
   border: none; // Remove border
   color: var(--gray); // Set color
   text-align: center; // Center align text
-  width: 40%; // Set width to 40%
+  width: 100%; // Set width to 40%
   border-color: var(--gray); // Set border color
 
   &:after {
-    content: " * * * "; // Empty content for styling
+    content: "--------- ↟ ↟ ↟ ---------"; // Empty content for styling
     display: inline-block; // Display inline block
     margin: -1em 0 0.5em; // Add margin
-    font-size: 1.5em; // Set font size
+    font-size: 2em; // Set font size
     padding: 0.5em 1em; // Add padding
-    background: var(--light);
   }
 }
 
 pre.poetry {
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-family: Jacquard12;
   border: none;
   padding: 0;
@@ -112,4 +111,32 @@ pre.poetry {
 
 audio::-webkit-media-controls-panel {
   background-color: var(--lightgray);
+}
+
+// edit top margin to be smaller
+.page>#quartz-body .sidebar {
+  margin-top: 4rem; // Add top margin
+}
+
+// fixing headers and footers to make sure background stretches
+.page .page-header {
+  width: 700px;
+  margin: 4rem auto 0
+}
+
+.breadcrumb-container {
+  padding: .75rem 0 0;
+}
+.div .page-header {
+  margin-top: 0px;
+}
+
+footer {
+  margin-bottom: 0px;
+  padding-bottom: 4rem; 
+}
+
+.left-column ul.overflow::after,
+.left-column ol.overflow::after {
+  width: 50%;
 }
