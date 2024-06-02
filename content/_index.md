@@ -3,7 +3,7 @@ title: kennalewis.com
 tags:
   - evergreen
 ---
-![[content/banner.svg]]
+![[content/bannernew.svg]]
 
 ```poetry
 Welcome to my Digital Garden
