@@ -4,6 +4,7 @@ tags:
   - evergreen
 ---
 ![[content/bannernew.svg]]
+![[content/banner (1).svg]]
 
 ```poetry
 Welcome to my Digital Garden
