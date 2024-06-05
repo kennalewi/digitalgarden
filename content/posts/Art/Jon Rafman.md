@@ -1,7 +1,7 @@
 ---
 title: Jon Rafman
 draft: false
-tags: 
+tags: []
 created date: 2024-05-21
 ---
 ## 9 Eyes

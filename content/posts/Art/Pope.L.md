@@ -1,7 +1,8 @@
 ---
 title: Pope.L
 draft: false
-tags: 
+tags:
+  - artist
 created date: 2024-05-23
 ---
 William Pope.L was a [[Performance Art|performance artist]] who explored themes of race and [[examination of power|power]]. 

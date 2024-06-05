@@ -1,6 +1,6 @@
 ---
 title: Selling 3D Printed Products
-draft: true
+draft: false
 tags: 
 created date: 2024-05-29
 aliases:
@@ -22,6 +22,8 @@ Ideas
 - Break apart magnet toys
 	- Great for AMS attachment, they end up looking very good.
 	- [Zelda Pot](https://www.etsy.com/listing/1671767547/zelda-breakable-pot-with-rupees?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=switch+stand&ref=sr_gallery-1-41&frs=1&pop=1&content_source=50b6b22975d3ba21cf78ead4f1f96539dfc7a687%253A1671767547&search_preloaded_img=1&organic_search_click=1)
+- Bullet Journal accessories
+	- [Ideas online to print](https://www.yeggi.com/q/bullet+journal/)
 
 Creators
 - [Quirky3DPrinting](https://www.etsy.com/shop/Quirky3DPrinting?ref=shop-header-name&listing_id=1486732087&from_page=listing) - Etsy

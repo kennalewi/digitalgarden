@@ -1,8 +1,9 @@
 ---
 title: Arno Beck
-draft: true
+draft: false
 tags:
   - artist
+  - post-internet-art
 created date: 2024-06-02
 ---
 [Artist website](http://arnobeck.de/0)

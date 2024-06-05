@@ -1,5 +1,5 @@
 ---
-title: what is living
+title: what is a living thing
 draft: true
 tags: 
 created date: 2024-06-02

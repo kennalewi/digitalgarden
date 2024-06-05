@@ -1,7 +1,8 @@
 ---
 title: Laura Hyunjhee Kim
 draft: true
-tags: 
+tags:
+  - artist
 created date: 2024-06-02
 ---
 [[Post Internet Art|post internet artist]], and [[Performance Art|performance artist]].

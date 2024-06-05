@@ -3,6 +3,7 @@ title: Petra Cortright
 draft: false
 tags:
   - artist
+  - post-internet-art
 created date: 2024-05-21
 ---
 > [!quote] [What Is Post-Internet Art? Understanding the Revolutionary New Art Movement](https://www.artspace.com/magazine/interviews_features/trend_report/post_internet_art-52138)

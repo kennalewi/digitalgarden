@@ -47,16 +47,6 @@ Final consensus here:
 > [!quote] 
 > The gallery could be treated like another software platform to explore instead of a net art fridge door.
 # The Post Internet Artists
-[[Artie Vierkant]]
-[[Jill Magid]]
-[[Seth Price]]
-[[Brad Troemel]]
-[[Crystal Z Campbell]]
-[[Oliver Laric]]
-[[Petra Cortright]]
-**[[Cory Arcangel]]**
-[[K Allado-McDowell]]
-[[Joshua Citarella]]
-[[Hito Steyerl]]
-[[Arno Beck]]
-[[Shahryar Nashat]]
+```dataview 
+LIST FROM #artist AND #post-internet-art    
+```

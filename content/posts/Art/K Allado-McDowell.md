@@ -3,6 +3,7 @@ title: K Allado-McDowell
 draft: true
 tags:
   - artist
+  - post-internet-art
 created date: 2024-05-27
 ---
 https://www.kalladomcdowell.com

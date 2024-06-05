@@ -3,6 +3,7 @@ title: Cory Arcangel
 draft: false
 tags:
   - artist
+  - post-internet-art
 created date: 2024-05-21
 ---
 # General About
