@@ -23,7 +23,7 @@ Tania Bruc--- cuban artist who questions power in relation to the cuban governme
 Forensic Architecture - watch the Whitney biennale video from 2019
 
 
-When looking at [[Anthony Discenza]]'s work, Mrin told me that when I'm creating my work, I should focus more on creating a space for [[institutional critique]], as opposed to making artworks that "tell people what to think". (Not to downplay painting or image/object making, it's just not what my subject matter necessitates. Also, these objects can be speculative).
+When looking at [[Anthony Discenza]]'s work, Mrin told me that when I'm creating my work, I should focus more on creating a space for [[Institutional Critique]], as opposed to making artworks that "tell people what to think". (Not to downplay painting or image/object making, it's just not what my subject matter necessitates. Also, these objects can be speculative).
 
 
 my art might not take the form of a specific medium, or physical sculpture even. Consider how you can create installations or **spaces for institutional critique**. 
