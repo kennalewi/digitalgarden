@@ -1,5 +1,5 @@
 ---
-title: Untitled
+title: Tabita Rezaire
 draft: false
 tags:
   - artist

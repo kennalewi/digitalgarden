@@ -1,5 +1,5 @@
 ---
-title: Untitled
+title: The Post-Individual
 draft: false
 tags: 
 created date: 2024-06-02
