@@ -3,6 +3,8 @@ title: How to Read
 draft: false
 tags: 
 created date: 2024-05-15
+aliases:
+  - how to read
 ---
 # Intro
 Learning how to read is much different in college than it is in elementary and even high school. Especially when you get to grad school, you're going to have to learn how to really read, and quick. Here I'm collecting tips, and developing a personal framework to improve my reading. 
@@ -12,7 +14,7 @@ A little about me, I have ADD, and I famously did as little reading as I could g
 Hopefully my writing is helpful to anyone in the same predicament as me.
 
 # Research about Reading
-Tips from [How to Read a Book in Two Hours or Less](https://www.insidehighered.com/blogs/gradhacker/how-read-book-two-hours-or-less):
+## Tips from [How to Read a Book in Two Hours or Less](https://www.insidehighered.com/blogs/gradhacker/how-read-book-two-hours-or-less):
 1. Read book reviews
 	1. Specifically reviews from academics. This helps you summarize the book's argument, understand organization, and give it academic context.
 	2. Becoming familiar with the book allows you to absorb it better.
@@ -53,3 +55,7 @@ Keep track of what you read, possibly make a goodreads account, or track it some
 		- How might focusing on different experiences re-frame the conversation?
 	- Read to understand, not memorize. Anything that can be memorized can be looked up immediately at another time.
 	- Take breaks, use [[Pomodoro Method]].
+
+## Odd, entertaining tips
+- [[Marshall McLuhan]] has an interesting idea: He only read the right hand page of books, because he thought books were very redundant.
+- Google "here in my garage", you won't regret it.

@@ -3,6 +3,8 @@ title: Caroline Meeting
 draft: false
 tags: 
 created date: 2024-06-10
+aliases:
+  - DAAPFE chat
 ---
 ## What we talked about
 [[Hyperstition]] - self fulfilling prophecies + the internet
@@ -22,8 +24,8 @@ created date: 2024-06-10
 Take a deeper look at Carolines work + her contemporaries
 - ["I am thankful to be a ghost now"](https://drewzeiba.com/I-am-thankful-to-be-a-ghost-now)
 ### Medium Rework
-In relation to [[Post-Conceptual Cloud Piece]]:
-Consider your medium more closely, read [[The Medium is the Message]]
+In relation to [[Conceptual Cloud Piece - Reflection]]:
+Consider your medium more closely, read [[Marshall McLuhan]]
  - tech corporate speak - use the graphic design structures I've been trained in
  - broaden approach from something hyperspecific like jenna's work to complete distractions.
  - don't feel the need to teach - try to make a video with no obvious signs - make a cloud without making a symbol

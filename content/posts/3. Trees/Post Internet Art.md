@@ -5,6 +5,7 @@ tags:
 created date: 2024-05-15
 aliases:
   - post internet artist
+link: "[[Post Internet Art]]"
 ---
 # What Is Post Internet Art?
 
@@ -35,7 +36,7 @@ The New Aesthetic - [[James Brindle]]
 Post Internet - Gene **McHugh**
 
 # Where Post Internet Art belongs
-From Anthony Antonellis' writing, ["Internet art in a gallery"](https://www.anthonyantonellis.com/writing/internet-art-in-a-gallery). 
+From [[Anthony Antonellis]]' writing, ["Internet art in a gallery"](https://www.anthonyantonellis.com/writing/internet-art-in-a-gallery). 
 ![[Pasted image 20240519130812.png]] 
 Antonellis argues that Internet Art should be viewed in a [[holodeck]], or it's natural habitat, browser tabs and windows. Browser tabs are like framed paintings. Viewing internet artwork at home situates you into a relationship with the artist, as they have probably sat in the same position as you creating the work. Internet artwork in a gallery "adapts the work at the expense of this intimacy". Gallery presents a unique chance to do something different with the work.
 

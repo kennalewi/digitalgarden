@@ -5,6 +5,7 @@ tags:
   - artist
   - post-internet-art
 created date: 2024-06-04
+link: "[[Post Internet Art]]"
 ---
 # Works
 ## [Monolith](https://vimeo.com/823914133)

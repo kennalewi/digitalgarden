@@ -5,6 +5,7 @@ tags:
   - artist
   - post-internet-art
 created date: 2024-05-20
+link: "[[Post Internet Art]]"
 ---
 # Dispersion
 http://www.distributedhistory.com/Dispersion2016.pdf

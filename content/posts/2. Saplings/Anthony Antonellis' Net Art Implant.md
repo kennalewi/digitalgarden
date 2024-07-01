@@ -1,7 +1,8 @@
 ---
 title: Net Art Implants
 draft: false
-tags: 
+tags:
+  - personalpiece
 created date: 2024-05-15
 ---
 I found this project extremely interesting, and something to think about in terms of [[Post Internet Art]]. Anthony Antonellis created this implant that goes into his skin and has a simple gif that can be transfered to anyone via [[NFC technology]].  

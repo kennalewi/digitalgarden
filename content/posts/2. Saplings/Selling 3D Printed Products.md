@@ -1,10 +1,12 @@
 ---
 title: Selling 3D Printed Products
 draft: false
-tags: 
+tags:
+  - 3Dprint
 created date: 2024-05-29
 aliases:
   - sell my prints online
+link: "[[3D Printing]]"
 ---
 Ideas
 - [Keychain Spinner](https://www.etsy.com/search?q=keychain%20spinner&ref=search_bar)

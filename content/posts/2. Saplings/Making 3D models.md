@@ -1,8 +1,10 @@
 ---
 title: Making 3D models
 draft: false
-tags: 
+tags:
+  - 3Dprint
 created date: 2024-05-29
+link: "[[3D Printing]]"
 ---
 I got a 3D printer recently and have been saving lots of projects. I'm mostly experimenting right now, considering you can make almost anything with a 3D printer, I'm only a few steps into a giant ocean of potential.
 

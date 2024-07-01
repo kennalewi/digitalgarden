@@ -1,6 +1,6 @@
 ---
 title: Joe Hamilton
-draft: true
+draft: false
 tags: 
 created date: 2024-06-10
 ---

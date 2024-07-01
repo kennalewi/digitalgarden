@@ -1,8 +1,10 @@
 ---
 title: Exploring Music
 draft: false
-tags: 
+tags:
+  - musicprod
 created date: 2024-06-07
+link: "[[Sound Art and Music Production]]"
 ---
 # Intro
 In my sound studio, I was shown this website called everynoise.com. I had seen it before (sorry had to flex) but was so excited to remember this site. 

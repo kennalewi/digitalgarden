@@ -1,6 +1,6 @@
 ---
 title: AI Art Refik Anadol vs. Jerry Saltz
-draft: true
+draft: false
 tags: 
 created date: 2024-06-10
 ---

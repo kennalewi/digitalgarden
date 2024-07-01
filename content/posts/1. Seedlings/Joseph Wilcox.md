@@ -5,6 +5,7 @@ tags:
   - artist
   - post-internet-art
 created date: 2024-06-02
+link: "[[Post Internet Art]]"
 ---
 # About
 > [!quote] [Artist Statement](https://www.narsfoundation.org/joseph-wilcox-usa#:~:text=By%20adopting%20the%20roles%20of,power%20structures%20undermine%20individual%20autonomy.)

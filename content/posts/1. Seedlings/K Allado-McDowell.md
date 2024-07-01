@@ -5,6 +5,7 @@ tags:
   - artist
   - post-internet-art
 created date: 2024-05-27
+link: "[[Post Internet Art]]"
 ---
 https://www.kalladomcdowell.com
 - writer, speaker, and musician.

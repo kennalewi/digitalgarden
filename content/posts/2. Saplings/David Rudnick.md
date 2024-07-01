@@ -1,7 +1,8 @@
 ---
 title: David Rudnick
 draft: false
-tags: 
+tags:
+  - designer
 created date: 2024-06-10
 ---
 # Talks

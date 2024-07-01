@@ -5,6 +5,7 @@ tags:
   - artist
   - post-internet-art
 created date: 2024-06-02
+link: "[[Post Internet Art]]"
 ---
 # Works
 ![[Pasted image 20240602204230.png]]

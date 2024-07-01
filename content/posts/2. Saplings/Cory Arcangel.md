@@ -5,6 +5,7 @@ tags:
   - artist
   - post-internet-art
 created date: 2024-05-21
+link: "[[Post Internet Art]]"
 ---
 # General About
 Highly conceptual artist with coding experience creating web art 

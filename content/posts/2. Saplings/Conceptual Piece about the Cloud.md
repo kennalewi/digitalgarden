@@ -2,7 +2,7 @@
 title: conceptual piece about the cloud
 draft: false
 tags:
-  - artwriting
+  - personalpiece
 created date: 2024-05-31
 aliases:
   - conceptual piece about the cloud

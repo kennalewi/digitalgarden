@@ -5,6 +5,7 @@ tags:
   - artist
   - post-internet-art
 created date: 2024-06-02
+link: "[[Post Internet Art]]"
 ---
 [Artist website](http://arnobeck.de/0)
 

@@ -5,6 +5,7 @@ tags:
   - artist
   - post-internet-art
 created date: 2024-06-02
+link: "[[Post Internet Art]]"
 ---
 # About
 [Bio](https://www.moma.org/artists/43752) on MoMA site
