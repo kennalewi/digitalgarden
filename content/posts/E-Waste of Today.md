@@ -8,8 +8,8 @@ I've been thinking a lot about [[Speculation]], and as a result, some things tha
 
 # Ecig waste
 
-I remember when I was younger and I would have to step over cigarette butts on the street. They were everywhere, and despite there being disposable containers for cigarettes, 
-
+I remember when I was younger and I would have to step over cigarette butts on the street. They were everywhere, and despite there being disposable containers for cigarettes.
+[Vape Waste: The environmental harms of disposable vapes](https://pirg.org/edfund/resources/vape-waste-the-environmental-harms-of-disposable-vapes/#:~:text=Due%20to%20the%20nicotine%20e,be%20thrown%20in%20the%20trash.)
 
 Speculative fiction:
 What would we use after getting rid of e-cigs. 
@@ -20,7 +20,4 @@ What would we use after getting rid of e-cigs.
 - The world's most measured man, Bryan Johnson exists, and is heralded as an example of how we can lengthen our lives through interventions of technology and health.
 
 I could see us using an intravenous method of dispensing nicotine in the future.
-
-Red light therapy
-Glucose monitoring
-regular bloodwork - that scam that female steve jobs made came to mind
+[[Health Devices]]

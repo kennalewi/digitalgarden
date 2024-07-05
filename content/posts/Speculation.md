@@ -7,9 +7,7 @@ created date: 2024-06-29
 From my original writings about [[Speculative Objects]], and following my [[Review with Mrin]]
 # Definitions
 ![[Screenshot 2024-06-29 at 9.17.29 PM.png]]
-
 # Speculative Design
-
 > [!quote] [From Wikipedia](https://en.wikipedia.org/wiki/Speculative_design#:~:text=Speculative%20design%20is%20a%20form,as%20a%20festival”%20in%201973.)
 > Speculative design is a design practice concerned with future design proposals of a critical nature. The term was popularised by Anthony Dunne and Fiona Raby as a subsidiary of critical design. The aim is not to present commercially-driven design proposals but to design proposals that identify and debate crucial issues that might happen in the future. Speculative design is concerned with future consequences and implications of the relationship between science, technology, and humans. It problematizes this relation by proposing provocative future design scenarios where technology and design implications are accentuated. These design proposals are meant to trigger debates about the future rather than marketing products.
 
@@ -46,3 +44,6 @@ Speculative Design, Design Fiction, Critical Design
 While her process is very literal and design oriented, I want to be sure to employ a process that's more fluid and not intended to be a direct response to anything specific. 
 # Design Is Speculative Futures Design Thinking - a new toolkit for preemptive design
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UB9UVHGI6AI?si=pzhY8LpIaDYBzlXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+# Speculative Everything Anthony Dunne at Resonate 2013
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QbVHXrCBFBE?si=C4PS8mAULLJD2rPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
